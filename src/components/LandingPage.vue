@@ -56,7 +56,7 @@
         <div
           v-for="(feature, i) in features"
           :key="i"
-          class="shadow-lg hover:shadow-xl transition-shadow duration-300 border rounded p-6 bg-white"
+          class="shadow-lg hover:shadow-xl transition-shadow duration-300  rounded p-6 bg-white"
         >
           <div class="mb-4">
             <component :is="feature.icon" class="w-12 h-12" :class="feature.color" />
